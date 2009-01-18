@@ -1,0 +1,151 @@
+a:link {
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #a27951;
+	color: #5C4405;
+}
+a:visited {
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #a27951;
+	color: #5C4405;
+}
+a:hover {
+	text-decoration: none;
+	color: #000000
+
+}
+a:active {
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #a27951;
+	color: #000000;
+}
+
+.mainbox {
+	border: 1px none #5C4405;
+	color: #000000;
+}
+.featurebox {
+	background-color: #DFCFBF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #5C4405;
+	border-right-color: #5C4405;
+	border-bottom-color: #5C4405;
+	border-left-color: #5C4405;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #5C4405;
+	padding: 5px;
+}
+.browntext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #5C4405;
+	padding: 0px 5px 5px 8px;
+
+}
+
+.darkertext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #999999;
+	padding: 0px 5px 5px 8px;
+
+}
+
+.bluetext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #054BEB;
+	padding: 0px 5px 5px 8px;
+}
+
+.darkbrowntext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #a27951;
+	padding: 0px 5px 5px 8px;
+
+}
+.cleanlink {
+	text-decoration: none;
+}
+body, td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+}
+.button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #DFCFBF;
+	border: 1px solid #5C4405;
+}
+.textfields {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #5C4405;
+	border: 1px solid #DFCFBF;
+}
+.imgborder {
+	border: 1px solid #5C4405;
+}
+.img-shadow {
+  float:left;
+  background: url(img\shadow.png) no-repeat bottom right !important;
+  margin: 10px 0 0 10px !important;
+  margin: 10px 0 0 5px;
+  }
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 4px;
+  } 
+  
+.cssbox, .cssbox_body, .cssbox_head, .cssbox_head h2 { 
+background: transparent url(../img/biblo_bg_mocha.png) no-repeat bottom right; 
+} 
+
+.cssbox { 
+width: 400px !important; /* intended total box width - padding-right(next) */ 
+width: 385px; /* IE Win = width - padding */ 
+padding-right: 15px; /* the gap on the right edge of the image (not content padding) */ 
+margin: 20px auto; /* use to position the box */ 
+} /* set the top-right image */ 
+
+.cssbox_head { 
+background-position: top right; 
+margin-right: -15px; /* pull the right image over on top of border */ 
+padding-right: 40px; /* right-image-gap + right-inside padding */ 
+} /* set the top-left image */ 
+
+.cssbox_head h2 { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #5C4405;
+background-position: top left; margin: 0; /* reset main site styles*/ 
+border: 0; /* ditto */ padding: 25px 0 15px 40px; /* padding-left = image gap + interior padding ... no padding-right */ 
+height: auto !important; height: 1%; /* IE Holly Hack */ 
+} /* set the lower-left corner image */ 
+
+.cssbox_body { 
+background-position: bottom left; margin-right: 25px; /* interior-padding right */ 
+padding: 15px 0 15px 40px; /* mirror .cssbox_head right/left */ 
+} 
